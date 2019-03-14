@@ -1,0 +1,250 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:300,400);
+
+* {
+  font-family: 'Roboto Mono', monospace;
+}
+
+body {
+  background: url('test3.svg') #EEEEEE;
+  background-position-y: -15px;
+  font-size: 10pt;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+a {
+  font-weight: 400;
+  color: #EF2C00;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+a:hover {
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+
+
+abbr {
+  text-decoration: none;
+}
+
+.page-wrapper {
+  background: #FFFFFF;
+  border: 1px solid #0000FF;
+  border-top-right-radius: 30px 30px;
+  box-shadow: 6px 6px #0000FF;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70%;
+  padding: 40px;
+  position: relative;
+}
+
+
+h1 {
+  background-color: #0000FF;
+  text-transform: uppercase;
+  text-shadow: 3px 3px #FFFFFF;
+  color: #0000FF;
+  -webkit-text-stroke: 0.5px #FFFFFF;
+  font-size: 3.3em; 
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: 0;
+  border-top-right-radius: 30px 30px;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 1.2em;
+  margin: 0;
+  padding: 20px;
+  text-transform: lowercase;
+  color: #EF2C00;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #0000FF;
+  color: #0000FF;
+}
+
+.summary {
+  border-bottom: 1px solid #0000FF;
+  padding-top: 0;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.preamble {
+  border-bottom: 1px solid #0000FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+
+#zen-supporting {
+  text-align: justify;
+  display: inline-block;
+  border-bottom: 1px solid #0000FF;
+}
+
+
+.explanation {
+  text-align:left;
+  width: 100%;
+  border-bottom: 1px solid #0000FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+
+.participation {
+  text-align:left;
+  width: 100%;
+  border-bottom: 1px solid #0000FF;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+
+.benefits {
+  text-align:left;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 20px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #0000FF;
+}
+
+
+.requirements {
+  text-align:left;
+  width: 70%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  width: 100%;
+}
+footer {
+  border-top: 1px solid #0000FF;
+  position:absolute;
+  right: 40px;
+  bottom: 40px;
+  width: auto;
+  text-align: right;
+  padding: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.wrapper {
+  text-align: justify;
+}
+
+.design-selection {
+  text-align: left;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+}
+
+.design-archives {
+  text-align: left;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.zen-resources {
+  text-align: left;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom:60px;
+  display: inline-block;
+}
+
+
+ul {
+  padding-left: 15px;
+  list-style-type: square;
+}
+
+@media screen and (min-width: 700px) {
+  body {
+    margin-top: 80px;
+    margin-bottom: 80px;    
+  }
+  .explanation {
+    width:48%;
+  }
+
+  .participation {
+    width:48%;
+  }
+
+  .benefits {
+    width:35%;
+  }
+
+  .requirements {
+    width:58%;
+  }
+
+  .design-selection {
+    width:50%;
+    vertical-align: top;
+  }
+
+  .design-archives {
+    width: 40%;
+    vertical-align: top;
+  }
+
+  .zen-resources {
+    width: 30%;
+    vertical-align: top;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+
+  .design-selection {
+    width:36%;
+    vertical-align: top;
+  }
+
+  .design-archives {
+    width: 30%;
+    vertical-align: top;
+  }
+
+  .zen-resources {
+    width: 30%;
+    vertical-align: top;
+  }
+
+}
