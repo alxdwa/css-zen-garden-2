@@ -1,8 +1,20 @@
 ## CSS Zen Garden #2 ##
 
-Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), background (test3.svg) generated using p5.js library.
+Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), backgrounds (.svg files) were coded using p5.js.
 
-### Results from Day 1: ###
+Compared to previous attempt, a mobile-first approach was adopted and media queries were used. Only inline blocks were implemented, no CSS flex box as this topic had not been covered at the time.
+
+### First update from Day 1: ###
+
+A few lines were removed to 'lighten' up the design -- too many borders makes the overall page feel heavy. Some font weights and colors were edited to add emphasis and variety, and a new (less distracting) background image (bg2.svg also made using p5.js) was generated and used instead of the previous one (test3.svg).
+
+<img width="1293" alt="desktop large screen screenshot" src="https://user-images.githubusercontent.com/47341093/54345284-db4ff580-4696-11e9-861c-36d3aaccb5b7.png">
+
+<img width="513" alt="small screen screenshot top of page" src="https://user-images.githubusercontent.com/47341093/54345287-ddb24f80-4696-11e9-805c-01631611f6e7.png">
+
+<img width="526" alt="small screen screenshot down page" src="https://user-images.githubusercontent.com/47341093/54345289-de4ae600-4696-11e9-98db-6370328e9913.png">
+
+### Preliminary results from Day 1: ###
 
 320 by 568
 
