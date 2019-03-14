@@ -1,6 +1,6 @@
 ## CSS Zen Garden #2 ##
 
-Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), background (test3.svg) generated using p5.js library.
+Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), backgrounds (.svg files) were coded using p5.js.
 
 ### First update from Day 1: ###
 
