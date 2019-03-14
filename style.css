@@ -268,9 +268,12 @@ p[role=contentinfo] {
 
 @media screen and (min-width: 1200px) {
 
+  .page-wrapper {
+    width: 900px;
+  }
 
   .design-selection {
-    width:36%;
+    width: 36%;
     vertical-align: top;
   }
 
