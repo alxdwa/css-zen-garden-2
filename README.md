@@ -2,6 +2,8 @@
 
 Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), backgrounds (.svg files) were coded using p5.js.
 
+Compared to previous attempt, a mobile-first approach was adopted and media queries were used. Only inline blocks were implemented, no CSS flex box as this topic had not been covered at the time.
+
 ### First update from Day 1: ###
 
 <img width="1293" alt="desktop large screen screenshot" src="https://user-images.githubusercontent.com/47341093/54345284-db4ff580-4696-11e9-861c-36d3aaccb5b7.png">
