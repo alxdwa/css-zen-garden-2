@@ -6,6 +6,8 @@ Compared to previous attempt, a mobile-first approach was adopted and media quer
 
 ### First update from Day 1: ###
 
+A few lines were removed to 'lighten' up the design -- too many borders makes the overall page feel heavy. Some font weights and colors were edited to add emphasis and variety, and a new (less distracting) background image (bg2.svg also made using p5.js) was generated and used instead of the previous one (test3.svg).
+
 <img width="1293" alt="desktop large screen screenshot" src="https://user-images.githubusercontent.com/47341093/54345284-db4ff580-4696-11e9-861c-36d3aaccb5b7.png">
 
 <img width="513" alt="small screen screenshot top of page" src="https://user-images.githubusercontent.com/47341093/54345287-ddb24f80-4696-11e9-805c-01631611f6e7.png">
