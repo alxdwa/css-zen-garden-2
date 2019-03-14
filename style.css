@@ -4,8 +4,9 @@
   font-family: 'Roboto Mono', monospace;
 }
 
+
 body {
-  background: url('test3.svg') #EEEEEE;
+  background: #EEEEEE;
   background-position-y: -15px;
   font-size: 10pt;
   font-weight: 300;
@@ -31,8 +32,7 @@ abbr {
 
 .page-wrapper {
   background: #FFFFFF;
-  border: 1px solid #0000FF;
-  border-top-right-radius: 30px 30px;
+  border: 0px solid #0000FF;
   box-shadow: 6px 6px #0000FF;
   margin: auto;
   margin-top: 30px;
@@ -40,6 +40,7 @@ abbr {
   width: 70%;
   padding: 40px;
   position: relative;
+  border-top-right-radius: 30px 30px;
 }
 
 
@@ -64,6 +65,7 @@ h2 {
   padding: 20px;
   text-transform: lowercase;
   color: #EF2C00;
+  text-align: right;
 }
 
 h3 {
@@ -79,6 +81,9 @@ h3 {
   padding-top: 0;
   padding-bottom: 20px;
   width: 100%;
+  font-size: 1em;
+  font-weight: 400;
+  color: #0000FF;
 }
 
 .preamble {
@@ -197,6 +202,31 @@ ul {
     margin-top: 80px;
     margin-bottom: 80px;    
   }
+
+
+  .summary {
+    width:35%;
+    display: inline-block;
+    border-top: 1px solid #0000FF;
+    border-bottom: none;
+    vertical-align: middle;
+    margin-top: 50px;
+  }
+
+  .preamble {
+    width:58%;
+    display: inline-block;
+    margin-left:10px;
+    vertical-align: middle;
+  }
+  .preamble h3 {
+    margin-top: 0px;
+  }
+
+  #zen-supporting {
+    margin-top: 30px;
+  }
+
   .explanation {
     width:48%;
   }
