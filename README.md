@@ -2,7 +2,7 @@
 
 Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) after studying mobile-first responsive design. As for [css-zen-garden repo](https://github.com/alxdwa/css-zen-garden), background (test3.svg) generated using p5.js library.
 
-# Results from Day 1: #
+### Results from Day 1: ###
 
 320 by 568
 
