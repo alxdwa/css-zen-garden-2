@@ -6,11 +6,11 @@
 
 
 body {
-  background: #EEEEEE;
-  background-position-y: -15px;
+  background: url('bg2.svg') left   #EEEEEE;
+  background-position-y: -50px;
   font-size: 10pt;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.7em;
 }
 
 a {
@@ -197,6 +197,13 @@ ul {
   list-style-type: square;
 }
 
+p[role=contentinfo] {
+  font-weight: 400;
+  border-top: 1px solid #0000FF;
+  padding-top: 20px;
+  margin-top: 40px;
+}
+
 @media screen and (min-width: 700px) {
   body {
     margin-top: 80px;
@@ -205,7 +212,7 @@ ul {
 
 
   .summary {
-    width:35%;
+    width:36%;
     display: inline-block;
     border-top: 1px solid #0000FF;
     border-bottom: none;
@@ -214,7 +221,7 @@ ul {
   }
 
   .preamble {
-    width:58%;
+    width:60%;
     display: inline-block;
     margin-left:10px;
     vertical-align: middle;
@@ -240,7 +247,7 @@ ul {
   }
 
   .requirements {
-    width:58%;
+    width:59%;
   }
 
   .design-selection {
