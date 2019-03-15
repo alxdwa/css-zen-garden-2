@@ -4,7 +4,15 @@ Another attempt at redesigning [CSS Zen Garden](http://www.csszengarden.com/) af
 
 Compared to previous attempt, a mobile-first approach was adopted and media queries were used. Only inline blocks were implemented, no CSS flex box as this topic had not been covered at the time.
 
-### First update from Day 1: ###
+### Second update, Day 2: ###
+
+Changed header for larger screen sizes, and implemented transition animations between media queries. Added background image to header.
+
+<img width="320" alt="1" src="https://user-images.githubusercontent.com/47341093/54424165-6d72ff00-4766-11e9-85d1-20b580a0bb0d.png">
+<img width="574" alt="2" src="https://user-images.githubusercontent.com/47341093/54424164-6d72ff00-4766-11e9-9136-dbb48a705ee1.png">
+<img width="722" alt="3" src="https://user-images.githubusercontent.com/47341093/54424163-6d72ff00-4766-11e9-92bc-a2a73a7e49f7.png">
+
+### First update, Day 1: ###
 
 A few lines were removed to 'lighten' up the design -- too many borders makes the overall page feel heavy. Some font weights and colors were edited to add emphasis and variety, and a new (less distracting) background image (bg2.svg also made using p5.js) was generated and used instead of the previous one (test3.svg).
 
